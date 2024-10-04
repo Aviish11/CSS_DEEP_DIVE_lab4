@@ -1,0 +1,67 @@
+
+:root {
+    --main-color: #365daa;
+    --secondary-color: #3c1804;
+    --font-size-medium: 24px;
+}
+
+
+header{
+    position: fixed;
+    margin-bottom: auto;
+}
+
+footer{
+    background-color: rgb(222, 201, 250);
+    position: relative ;
+    width: 100%;
+    padding: 30px;
+    margin-top: auto;
+}
+
+.intro{
+        color: var(--main-color);
+        font-size: var(--font-size-medium);
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.flex-item{
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    gap: 30px;
+    padding: 10px;
+    background-color: lightcyan;
+    margin-bottom: 40px;
+}
+
+/* Positioning Example */
+.relative-container {
+    position: relative;
+    background-color: rgb(215, 252, 227);
+    padding: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: rgb(2, 1, 1);
+    padding: 0px;
+}
+
